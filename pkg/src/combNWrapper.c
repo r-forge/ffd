@@ -46,7 +46,7 @@ double combNsymmIndex(double *alphaVec, int maxInd, int indVec[],
     int ii;
     int sumInd = 0;
     
-    // Anzahl der zur Verfügung stehenden Elementen:
+    // Anzahl der zur Verfuegung stehenden Elemente:
     for (ii = 0; ii < maxInd; ii++){
         sumInd += indVec[ii];   
     }
@@ -78,7 +78,7 @@ double combNDecompSymmIndex(double *alphaVec, int maxInd, int indVec[],
     int ii;
     int sumInd = 0;    
     
-    // Anzahl der zur Verfügung stehenden Elementen:
+    // Anzahl der zur Verfuegung stehenden Elemente:
     for (ii = 0; ii < maxInd; ii++){
         sumInd += indVec[ii];   
     }
