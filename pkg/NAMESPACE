@@ -1,4 +1,4 @@
-useDynLib(FFD)
+useDynLib(FFD, .registration = TRUE)
 
 import(methods)
 import(R2HTML)
