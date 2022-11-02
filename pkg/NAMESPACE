@@ -1,5 +1,3 @@
-useDynLib(FFD, .registration = TRUE)
-
 import(methods)
 import(R2HTML)
 import(tcltk)
